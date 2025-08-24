@@ -1,0 +1,17 @@
+# rules to overwrite
+0
+# number of defined interactions
+10
+# type      type2       interaction
+A1          A2          none
+A1          B1          lennard-jones	78. 	3.
+A1	        B2	    	lennard-jones	82. 	3.2
+A1	        C1  		lennard-jones	78. 	3.2
+A2 	        B1  		lennard-jones	78. 	3.2
+A2  	    B2	        lennard-jones	78. 	3.2
+A2  	    C1	        lennard-jones	78. 	3.2
+B1  	    B2	        none
+B1	        C1	        lennard-jones	78. 	3.2
+B2	        C1		    lennard-jones	37. 	3.5
+# mixing rules to overwrite
+0
